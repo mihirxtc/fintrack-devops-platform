@@ -51,3 +51,4 @@
 - Root cause: POST request in API showing error due to it not contained all the required params: description & catagory
 - Fix: Upon exploring logs by "docker logs $(docker ps -q) --tail 20" that some params are missing in which requied by POST request
 - Status: Resolved
+
